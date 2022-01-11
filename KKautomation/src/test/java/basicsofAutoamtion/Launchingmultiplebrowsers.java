@@ -13,6 +13,7 @@ public class Launchingmultiplebrowsers {
 		//chrome
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
+		
 		driver.get("https://www.google.com");
 
 	}
